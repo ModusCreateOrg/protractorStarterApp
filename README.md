@@ -51,8 +51,6 @@ platformVersion   : '',
 ```
 - `npm run protractor-test-ios`
 
-### Android Simulator (Not to run due to low performance)
-
 ### Android Device
 Build/Deploy the app on an Android device. Please see _client/README.md_
 
