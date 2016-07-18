@@ -2,11 +2,12 @@
   "name": "Protractor_Starter_App",
   "version": "0.0.1",
   "devDependencies": {
-    "colors": "^1.1.2",
-    "jasmine-spec-reporter": "^2.5.0",
-    "moment": "^2.14.1",
-    "protractor": "^3.3.0",
-    "protractor-jasmine2-html-reporter": "0.0.6"
+    "colors": ">=1.1.2",
+    "jasmine-data-provider": ">=2.2.0",
+    "jasmine-spec-reporter": ">=2.5.0",
+    "moment": ">=2.14.1",
+    "protractor": ">=4.0.0",
+    "protractor-jasmine2-html-reporter": ">=0.0.6"
   },
   "dependencies": {},
   "scripts": {
