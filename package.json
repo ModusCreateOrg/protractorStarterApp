@@ -1,0 +1,21 @@
+{
+  "name": "Protractor_Starter_App",
+  "version": "0.0.1",
+  "devDependencies": {
+    "colors": ">=1.1.2",
+    "deepmerge": "^1.2.0",
+    "jasmine-data-provider": ">=2.2.0",
+    "jasmine-spec-reporter": ">=2.5.0",
+    "moment": ">=2.14.1",
+    "protractor": ">=4.0.0",
+    "protractor-jasmine2-html-reporter": ">=0.0.6"
+  },
+  "dependencies": {},
+  "scripts": {
+    "protractor-setup": "./node_modules/.bin/webdriver-manager update",
+    "protractor-test-ci": "./node_modules/.bin/protractor protractor.conf.ci.js",
+    "protractor-test-android": "./node_modules/.bin/protractor protractor.conf.android.js",
+    "protractor-test-ios": "./node_modules/.bin/protractor protractor.conf.ios.js",
+    "integration-test": "./node_modules/.bin/jasmine-node jasmine.conf.js"
+  }
+}
